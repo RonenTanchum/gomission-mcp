@@ -1,21 +1,38 @@
 {
-  "name": "gomission-mcp-server",
+  "name": "gomission-mcp",
   "version": "0.1.0",
   "private": false,
-  "description": "Runnable public wrapper for the Mission MCP Trust Graduation gate.",
+  "description": "Governed execution infrastructure for AI agents with approval ceremonies and receipt-backed boundaries.",
   "type": "module",
   "license": "MIT",
   "homepage": "https://claude.gomission.io",
+  "bugs": {
+    "url": "https://github.com/RonenTanchum/gomission-mcp/issues"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RonenTanchum/gomission-mcp.git"
+  },
+  "bin": {
+    "gomission-mcp": "./server.mjs"
   },
   "keywords": [
     "mcp",
     "mission",
     "gomission",
     "trust-graduation",
-    "agent-permission"
+    "agent-permission",
+    "agent-governance",
+    "human-in-the-loop",
+    "approvals",
+    "audit-trail",
+    "receipts"
+  ],
+  "files": [
+    "server.mjs",
+    "scripts",
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=20"
